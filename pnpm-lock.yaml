@@ -21,9 +21,6 @@ importers:
         specifier: ^4.2.1
         version: 4.2.1
     devDependencies:
-      '@types/moment-timezone':
-        specifier: ^0.5.30
-        version: 0.5.30
       '@types/node':
         specifier: ^22.19.2
         version: 22.19.3
@@ -48,10 +45,6 @@ packages:
     peerDependenciesMeta:
       '@cfworker/json-schema':
         optional: true
-
-  '@types/moment-timezone@0.5.30':
-    resolution: {integrity: sha512-aDVfCsjYnAQaV/E9Qc24C5Njx1CoDjXsEgkxtp9NyXDpYu4CCbmclb6QhWloS9UTU/8YROUEEdEkWI0D7DxnKg==}
-    deprecated: This is a stub types definition. moment-timezone provides its own type definitions, so you do not need this installed.
 
   '@types/node@22.19.3':
     resolution: {integrity: sha512-1N9SBnWYOJTrNZCdh/yJE+t910Y128BoyY+zBLWhL3r0TYzlTmFdXrPwHL9DyFZmlEXNQQolTZh3KHV31QDhyA==}
@@ -535,10 +528,6 @@ snapshots:
     transitivePeerDependencies:
       - hono
       - supports-color
-
-  '@types/moment-timezone@0.5.30':
-    dependencies:
-      moment-timezone: 0.5.48
 
   '@types/node@22.19.3':
     dependencies:
